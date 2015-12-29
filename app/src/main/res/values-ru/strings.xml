@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Buy</string>
+    <string name="action_sort_checked">Сортировать </string>
+    <string name="action_settings">Настройки</string>
+    <string name="cancel_string">Отмена</string>
+    <string name="create_positive_bt_str">Создать</string>
+    <string name="hint_list_name">Название листа</string>
+    <string name="new_item_et_text">Добавить новый пункт</string>
+    <string name="new_list_hint">Название новог листа</string>
+    <string name="new_list_string">Новый лист</string>
+    <string name="rename_list_str">Переименовать текущий список</string>
+    <string name="rename_positive_bt">Переименовать</string>
+    <string name="sample_item_str">Просто пункт</string>
+    <string name="user_list_str">Мой первый список</string>
+    <string name="delete_list_str">Удалить текущий список</string>
+    <string name="log_out_str">Выйти из аккаунта Google</string>
+</resources>

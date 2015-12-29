@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_check_box"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_edit_text"
+        android:text="text"
+        android:layout_toRightOf="@id/item_check_box"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_delete_iv"
+        android:src="@drawable/close_circle_outline"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/container"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_toRightOf="@id/item_edit_text"/>
+</RelativeLayout>
